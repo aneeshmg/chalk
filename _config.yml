@@ -3,7 +3,7 @@
 blog_theme: light # Or use dark
 name: a blog
 paginate: 25
-url: https://aneeshmg.github.io/chalk # add your site url (format: https://example.com)
+url: https://aneeshmg.github.io # add your site url (format: https://example.com)
 
 
 # Optional settings
