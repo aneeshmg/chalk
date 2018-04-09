@@ -47,6 +47,7 @@ assets:
     css: { autoprefixer: {}}
     img: { optim: {}}
   source_maps: false
+  compression: true
   sources:
     - _assets/icons
     - _assets/javascripts
