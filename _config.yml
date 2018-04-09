@@ -53,14 +53,15 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/yarn
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
+    img: { integrity: false } # true on JEKYLL_ENV=production
 collections:
   my_tags:
     output: true
     permalink: /tag/:slug/
 defaults:
-  js: { integrity: false } # true on JEKYLL_ENV=production
-  css: { integrity: false } # true on JEKYLL_ENV=production
-  img: { integrity: false } # true on JEKYLL_ENV=production
   -
     scope:
       path: ""
